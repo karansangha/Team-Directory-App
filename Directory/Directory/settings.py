@@ -23,7 +23,8 @@ SECRET_KEY = 'ia#toth@hd!xxvrsvad36^m&)3c@nn8=#joaan_228+9$5h-m='
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    u'evening-brushlands-22749.herokuapp.com'
+    u'evening-brushlands-22749.herokuapp.com',
+    '127.0.0.1',
 ]
 
 
