@@ -50,5 +50,3 @@ lib
 lib64
 *.pyo
 *.pyc
-
-*.sqlite3
