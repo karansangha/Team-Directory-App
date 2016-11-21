@@ -22,7 +22,9 @@ SECRET_KEY = 'ia#toth@hd!xxvrsvad36^m&)3c@nn8=#joaan_228+9$5h-m='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    u'evening-brushlands-22749.herokuapp.com'
+]
 
 
 # Application definition
