@@ -25,7 +25,9 @@ SECRET_KEY = '8c%$z*q-4$))l9h0t6x5+sfd5xacmy-)^zqh#a^!3t$mj59d20'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    https://evening-brushlands-22749.herokuapp.com/
+]
 
 
 # Application definition
