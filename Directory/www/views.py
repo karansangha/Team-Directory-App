@@ -6,8 +6,11 @@ from django.forms.models import model_to_dict
 from django.core.urlresolvers import reverse
 # Create your views here.
 def index(request):
-    people = Person.objects.all()
-    return render(request, 'index.html', {'people':people})
+    if request.user.is_authenticated():
+        people = Person.objects.all()
+        return render(request, 'index.html', {'people':people})
+    else:
+        return redirect('/login/google-oauth2')
 
 
 def detail(request, slug):
